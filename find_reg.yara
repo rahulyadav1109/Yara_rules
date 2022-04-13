@@ -7,6 +7,6 @@ rule Changing_registery_value
 	$b="RegSetValue"
 	$c="RegOpenCurrentUser"
 	condition:
-	($a or $b and $c)
+	($a or $b or $c)
 	
 } 
