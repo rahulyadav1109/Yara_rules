@@ -1,8 +1,8 @@
 import "hash"
-rule malicious_url
+rule hash
 {
 	meta:
-		description="This rule will find malicious url in the malware"
+		description="finding files using md5 hash"
 	strings:
 		$a= { 4D 5A }
 		
